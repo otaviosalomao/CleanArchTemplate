@@ -5,15 +5,15 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{774350C0-CEAD-440D-9D9B-2563BDE1DC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BDE49D67-D234-4871-B5DE-2B7FD743E2F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{BDE49D67-D234-4871-B5DE-2B7FD743E2F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{92C6524B-FABE-458D-B6FC-4B88A37A1FBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{92C6524B-FABE-458D-B6FC-4B88A37A1FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{6C4AE32D-224B-49A3-8ECA-1699602DD152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{6C4AE32D-224B-49A3-8ECA-1699602DD152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{FCA49996-0E27-4CC0-A4B6-DA07EB1AC4D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{FCA49996-0E27-4CC0-A4B6-DA07EB1AC4D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{0FEB695F-5A0A-4206-9E61-86AE0C04D5AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{0FEB695F-5A0A-4206-9E61-86AE0C04D5AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +50,7 @@ Global
 		{92C6524B-FABE-458D-B6FC-4B88A37A1FBB} = {774350C0-CEAD-440D-9D9B-2563BDE1DC7D}
 		{6C4AE32D-224B-49A3-8ECA-1699602DD152} = {774350C0-CEAD-440D-9D9B-2563BDE1DC7D}
 		{FCA49996-0E27-4CC0-A4B6-DA07EB1AC4D4} = {774350C0-CEAD-440D-9D9B-2563BDE1DC7D}
+		{0FEB695F-5A0A-4206-9E61-86AE0C04D5AB} = {774350C0-CEAD-440D-9D9B-2563BDE1DC7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FE50A26-F80D-44BE-AE8C-09521D6BEDAE}
