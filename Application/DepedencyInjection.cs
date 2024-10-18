@@ -1,4 +1,6 @@
-﻿using FluentValidation;
+﻿using Application.Interfaces;
+using Application.Services;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application
@@ -11,6 +13,13 @@ namespace Application
             services.AddMediatR(configuration =>
                 configuration.RegisterServicesFromAssembly(assembly));
             services.AddValidatorsFromAssembly(assembly);
+            ConfigureServices(services);
+            return services;
+        }
+
+        public static IServiceCollection ConfigureServices(this IServiceCollection services)
+        {
+            services.AddScoped<ISampleService, SampleService>();
             return services;
         }
     }

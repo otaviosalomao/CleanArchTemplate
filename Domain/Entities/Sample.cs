@@ -1,8 +1,8 @@
 ﻿namespace Domain.Entities
 {
-    public class SampleEntity
+    public class Sample
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

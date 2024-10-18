@@ -7,7 +7,7 @@ namespace Infrastructure.Data
 {
     public class SampleDbContext : DbContext
     {
-        public DbSet<SampleEntity> SampleEntities { get; set; }
+        public DbSet<Sample> Samples { get; set; }
         public SampleDbContext(DbContextOptions<SampleDbContext> options) : base(options)
         {
         }

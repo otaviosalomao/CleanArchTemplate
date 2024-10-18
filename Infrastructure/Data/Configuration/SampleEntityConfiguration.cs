@@ -5,7 +5,7 @@ namespace Infrastructure.Data.Configuration
 {
     public class SampleEntityConfiguration
     {
-        public void Configure(EntityTypeBuilder<SampleEntity> builder)
+        public void Configure(EntityTypeBuilder<Sample> builder)
         {
             builder.HasKey(u => new { u.Id });
             builder.Property(f => f.Id).ValueGeneratedOnAdd();
